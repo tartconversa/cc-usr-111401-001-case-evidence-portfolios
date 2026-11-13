@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1"
+  },
+  "collections": {
+    "documents": [
+      {
+        "id": "d1",
+        "revision": 1,
+        "village": "v1",
+        "paragraphs": [
+          {
+            "id": "p1",
+            "tokens": [
+              "蓝染",
+              "工坊"
+            ],
+            "text": "合成案例：工坊有本地培训。"
+          }
+        ],
+        "facets": {
+          "培训": [
+            {
+              "value": true,
+              "paragraph_id": "p1"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d2",
+        "revision": 1,
+        "village": "v2",
+        "paragraphs": [
+          {
+            "id": "p2",
+            "tokens": [
+              "古建",
+              "研学"
+            ],
+            "text": "合成案例：古建用于研学。"
+          }
+        ],
+        "facets": {}
+      }
+    ]
+  }
+}
